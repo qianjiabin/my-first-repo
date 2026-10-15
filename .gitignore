@@ -31,3 +31,44 @@ venv/
 # ---- 日志与临时文件 ----
 *.log
 *.tmp
+
+# ---- Visual Studio / C# / .NET 工程 ----
+# Visual Studio 用户级缓存（每台机器都不同，绝不能传）
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+.vscode/
+
+# 编译产物（exe/dll/pdb 体积巨大，从仓库重新生成）
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild[Ll]og.*
+*.dll
+*.exe
+*.pdb
+*.cachefile
+
+# NuGet 还原目录
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider / ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# .NET Core / 5+ 工程特有
+[Tt]est[Rr]esult*/
+TestResults/
+*.coverage
+*.coveragexml
