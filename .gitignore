@@ -1,0 +1,33 @@
+# ---- 操作系统生成的垃圾文件 ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- 编辑器 / IDE 配置 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- 绝对不能上传的隐私文件 ----
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+id_rsa
+id_ed25519
+secrets.json
+
+# ---- 依赖与缓存（体积巨大，绝不能传） ----
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+.venv/
+venv/
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
